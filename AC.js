@@ -6,7 +6,7 @@ function preload(){
 }
 
 function setup(){
-    canvas = createCanvas(550,475)
+    canvas = createCanvas(650,375)
     canvas.position(400,150);
     objectdetector = ml5.objectDetector("cocossd", modalloaded)
     document.getElementById("status").innerHTML = "staus: Detecting object";
